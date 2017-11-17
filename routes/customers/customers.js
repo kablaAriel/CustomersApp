@@ -35,7 +35,7 @@ customers.post('/add', (req, res) => {
 		res.redirect('/customers');
 	});
 
-	console.log(newcustomer);
+	console.log('New customer'+newcustomer);
 });
 
 customers.delete('/delete/:id', (req, res) => {
